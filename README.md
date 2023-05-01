@@ -1,12 +1,15 @@
 # poe_watchdog
 PoE Watchdog Script to control a GPIO pin based on ping to a network host
 
+<pre>
 Syntax: poe_watchdog host interval multiplier pin
 
 host    ip or hostname of device to check
 interval        frequency of pings to device
 multiplier      threshold of failed pings to reset device
 pin     gpio pin to reset device
+
+</pre>
 
 ## Behavior
 
