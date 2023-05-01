@@ -10,6 +10,7 @@ pin     gpio pin to reset device
 
 ## Behavior
 
+<pre>
 root@beaglebone:/home/debian# ./poe_watchdog.sh 192.168.132.160 1 5 60
 PoE Watchdog Script
 
@@ -34,3 +35,4 @@ connect: Network is unreachable
 > Connectivity is restored
 Counter: 0
 ^Z
+</pre>
